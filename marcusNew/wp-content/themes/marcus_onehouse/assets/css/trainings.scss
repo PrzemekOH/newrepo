@@ -1,0 +1,269 @@
+@import "variables.scss";
+
+.trainings {
+	&__shape {
+		background-color: $secondaryhover;
+		clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+		width: 40px;
+		height: 40px;
+	}
+
+	&__shapes {
+		justify-content: center;
+	}
+
+	&__row {
+		background-color: $primarybg;
+		background-image: url(/marcus/wp-content/themes/marcus_onehouse/assets/img/element_3.svg), url(/marcus/wp-content/themes/marcus_onehouse/assets/img/element_3.svg), url(/marcus/wp-content/themes/marcus_onehouse/assets/img/element_3.svg);
+		background-position-y: 65%, 28%, 22%;
+		background-position-x: -4%, 104%, 104%;
+		background-repeat: no-repeat;
+	}
+
+	&__wrapper {
+		:hover {
+			transform: translate(0px, -30px);
+			transition: transform .4s;
+		}
+
+	}
+
+	&__h2 {
+		color: $white;
+		transform: none !important;
+
+		:hover {
+			transform: none;
+		}
+
+	}
+
+	&__box {
+		background-color: #fff;
+		border: solid 2px $secondaryborder;
+		border-radius: 1px;
+		box-shadow: 0px 3px 6px #00000029;
+		// filter: drop-shadow(0px 16% 0px #000000);
+		//        		  	max-width: 420px !important;
+		// margin-right: 0.7rem;
+
+		:hover {
+			transform: none;
+		}
+
+		&--text {
+			text-align: center;
+
+			:hover {
+				transform: none;
+			}
+
+		}
+
+	}
+
+	&__data {
+		:hover {
+			transform: none;
+		}
+
+		&--rabatcirlce {
+			height: 66px;
+			width: 66px;
+			background-color: $secondaryborder;
+			// border-radius: 50%;
+			display: inline-block;
+			position: relative;
+			color: #ffff;
+			// transform: translate(280%, -53%);
+			// transform: translate(0px, -32px);
+			text-align: center;
+			clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+			    margin-top: -4rem;
+    transform: translate(0px, -60px);
+
+		}
+
+		&--rabatcirlcetxt {
+			margin-top: 30%;
+			font-weight: $semibold;
+			color: $white;
+			font-size: $medium !important;
+		}
+
+		&--terminrectangle {
+			height: 33px;
+			width: 174px;
+			background-color: $secondaryup;
+			// border-radius: 9px;
+			position: relative;
+			color: #ffff;
+			// margin-top: -6%;
+			// float: left;
+			// margin-left: 20%;
+			// transform: translate(280%, -53%);
+			margin: 0 auto;
+    margin-top: -4rem;
+		}
+
+		&--terminrectangletxt {
+			font-weight: $light;
+			color: $white;
+			font-size: $small;
+			// margin-top: 4%;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		&--termin {
+			color: $black;
+			font-size: $small;
+			font-weight: $light;
+			max-width: 60%;
+			margin: 0 auto;
+		}
+
+		&--nazwa_up {
+			color: $black;
+			font-size: $large;
+			font-weight: $bold;
+			text-transform: uppercase;
+		}
+
+		&--nazwa_szkolenia {
+			font-weight: $light;
+			font-size: $normal;
+			color: $secondaryhover;
+		}
+
+		&--poziom {
+			color: $black;
+			font-size: $small;
+			font-weight: $light;
+		}
+
+		&--cenna {
+			// background-color: $white;
+			max-width: 230px;
+			// border: solid 2px $white;
+			margin: 0 auto;
+			font-size: $large;
+			font-weight: $bold;
+			background-image: url(/marcus/wp-content/themes/marcus_onehouse/assets/img/znak_wodny.svg);
+			background-position: center;
+			background-size: 100%;
+			background-repeat: no-repeat;
+		}
+				&--infosoon {
+	
+			margin: 0 auto;
+			font-size: $small;
+			font-weight: $semibold;
+			background-image: url(/marcus/wp-content/themes/marcus_onehouse/assets/img/znak_wodny.svg);
+			background-position: center;
+			background-size: 100%;
+			background-repeat: no-repeat;
+		}
+
+		&--pln {
+			font-weight: $small;
+		}
+
+		&--excenna {
+			font-weight: $semibold;
+			color: $secondaryhover;
+			text-decoration: line-through;
+			font-size: $extrasmall;
+		}
+
+		&--additionalinfo {
+			font-size: $small;
+			color:$secondaryhover;
+		}
+
+	}
+
+}
+  .box-1{
+    margin-top: -5rem;
+  }
+  .box-2{
+  	    margin-top: -2rem;
+
+  }
+
+@media (max-width:992px) {
+	.trainings {
+		margin-left: 15px!important;
+    margin-right: 15px!important;
+    &__row{
+    	    background-size: 12%;
+    	        background-position-y: 65%, 23%, 22%;
+    }
+        &__wrapperrecent{
+margin-left:$mobilemr;
+    }
+		&__data {
+			&--nazwa_up {
+				font-size: 22px;
+				font-weight: $bold;
+			}
+
+			&--terminrectangletxt {
+				font-size: $mobilesmall;
+				font-weight: $semibold;
+			}
+
+			&--nazwa_szkolenia {
+				font-weight: $light;
+				font-size: $mobilemedium;
+			}
+
+			&--poziom {
+				font-weight: $light;
+				font-size: $mobilemedium;
+			}
+
+			&--cenna {
+				font-size: 22px;
+				font-weight: $bold;
+			}
+					&--infosoon {
+				font-size: $mobilemedium;
+				font-weight: $bold;
+			}
+
+			&--excenna {
+				font-size: $mobilesmall;
+				font-weight: $semibold;
+			}
+
+			&--additionalinfo {
+				font-size: $mobilesmall;
+				font-weight: $light;
+			}
+
+			&--pln {
+				font-size: $mobilemedium;
+			}
+					&--termin {
+					font-size: $mobilemedium;
+
+
+			}
+
+		}
+
+	}
+
+}
+
+.rabat-0,.rabat-2,.rabat-3,.rabat-4,.rabat-5,.rabat-6{
+	display: none;
+}
+ .termin-1, .termin-2, .termin-3, .termin-4, .termin-5,.termin-6{
+ 	display: none;
+ }
+ .hollow-0,.hollow-2,.hollow-3{
+ 	display: none;
+ }

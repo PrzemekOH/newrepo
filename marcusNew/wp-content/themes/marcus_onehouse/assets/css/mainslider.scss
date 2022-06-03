@@ -1,0 +1,112 @@
+@import "variables.scss";
+
+.mainslider {
+	padding-top: 6rem;
+	background: url(/marcus/wp-content/themes/marcus_onehouse/assets/img/zdjecie.png);
+	background-position-x: center;
+	min-height: 107vh;
+	background-repeat: no-repeat;
+	color: $white;
+
+	&__container {
+		padding: 0;
+		justify-content: flex-end;
+	}
+
+	&__textbox {
+		margin-right: auto;
+	}
+
+	&__h1 {
+		font-size: $extralage;
+		font-weight: $light;
+	}
+
+	&__subtitle {
+		font-size: $small;
+		font-weight: $light;
+	}
+
+	&__recentbox {
+		max-width: 17vw;
+		margin-top: 2rem;
+		min-width: 17vw;
+
+		&--txt {
+			border: 1px solid $grey;
+			padding-left: 20px;
+			padding-top: 15px;
+			padding-right: 20px;
+			padding-bottom: 15px;
+			background-color: $white;
+		}
+
+		&--bgwrap {
+			background-repeat-x: no-repeat;
+			background-position: center;
+    background-size: 55%;
+    background-position-y: 2%;
+    			background-image: url(/marcus/wp-content/themes/marcus_onehouse/assets/img/znak_wodny.svg);
+		}
+
+		&--up {
+			color: $grey;
+			font-weight: $light;
+			font-size: $small
+		}
+
+		&--middle {
+			color: $black;
+			font-weight: $bold;
+			font-size: $small
+		}
+
+		&--down {
+			color: $primary !important;
+			font-weight: $semibold;
+			font-size: $small
+		}
+
+		&--down:hover {
+			color: $black !important;
+		}
+
+	}
+
+}
+@media (max-width: 992px) {
+	.mainslider{
+	    max-height: 447px!important;
+min-height: 447px;
+    padding-top: 5rem;
+    background-position: center;
+    	background: url(/marcus/wp-content/themes/marcus_onehouse/assets/img/mobileheader.png);
+	   &__recentbox{
+	   	display: none;
+	   }
+	   &__h1{
+	   	margin:0 auto;
+	   	    font-size: 28px !important;
+    text-align: left;
+margin-left:$mobilemr;
+	   }
+
+	   	   &__subtitle{
+	   	   		margin:0 auto;
+    text-align: left;
+margin-left:$mobilemr;	  
+ 	font-size: $mobilemedium!important;
+}
+	   	   &__buttonarea{
+	   	   	background-color: $black;
+	   	   	    margin-top: -0.2rem;
+
+}
+	   	   &__textbox{
+    margin-top: 9rem;
+}
+
+
+}
+
+}

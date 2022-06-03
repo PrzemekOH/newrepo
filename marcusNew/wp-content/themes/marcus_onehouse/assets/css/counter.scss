@@ -1,0 +1,56 @@
+@import "variables.scss";
+
+.counter {
+	&__row {
+		// background-color: #7070703E;
+	}
+
+	&__col {
+		margin-top: 1em;
+	}
+
+	&__num {
+		font-weight: $bold;
+		font-size: $extralage;
+		color: $primary;
+	}
+
+	&__bg {
+		background: url(/marcus/wp-content/themes/marcus_onehouse/assets/img/m.svg);
+		background-position: center;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		max-height: 15px;
+		max-width: 39px;
+	}
+
+	&__txt {
+		font-weight: $light;
+		font-size: $small;
+	}
+
+}
+
+@media (max-width:992px) {
+	.counter {
+		&__col {
+			display: inherit;
+		}
+
+		&__num {
+			font-weight: $bold;
+			font-size: 28px;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		&__txt {
+			font-weight: $light;
+			font-size: $mobilemedium;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+	}
+
+}

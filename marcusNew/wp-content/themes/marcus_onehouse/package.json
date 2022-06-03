@@ -1,0 +1,28 @@
+{
+  "name": "marcus",
+  "version": "1.0.0",
+  "description": "marcus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "igor czerwinski",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.37.5"
+  },
+  "dependencies": {
+    "del": "^6.0.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass": "^4.14.1"
+  },
+  "keywords": [
+    "marcus"
+  ]
+}
