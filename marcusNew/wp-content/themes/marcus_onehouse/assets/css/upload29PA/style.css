@@ -38,6 +38,11 @@
 		margin: 0 auto;
 	}
 }
+
+.body {
+	width: 100%;
+}
+
 .counter__col {
 	margin-top: 1em;
 }
