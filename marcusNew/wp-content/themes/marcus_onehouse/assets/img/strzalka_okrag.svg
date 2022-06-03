@@ -1,8 +1,0 @@
-<svg id="strzalka_okrag" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <g id="Group_142" data-name="Group 142">
-    <rect id="Rectangle_71" data-name="Rectangle 71" width="24" height="24" fill="none"/>
-  </g>
-  <g id="Group_143" data-name="Group 143">
-    <path id="Path_4873" data-name="Path 4873" d="M22,12A10,10,0,1,0,12,22,10,10,0,0,0,22,12ZM4,12a8,8,0,1,1,8,8A8,8,0,0,1,4,12Zm12,0-4,4-1.41-1.41L12.17,13H8V11h4.17L10.58,9.41,12,8Z" fill="#96004c"/>
-  </g>
-</svg>
