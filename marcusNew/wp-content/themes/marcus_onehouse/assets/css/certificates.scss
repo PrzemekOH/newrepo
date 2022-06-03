@@ -1,0 +1,16 @@
+@import "variables.scss";
+
+@media (max-width:992px) {
+	.certificates {
+		margin-top: 15rem;
+
+		&__icons {
+			&--image {
+				margin: 0 auto;
+			}
+
+		}
+
+	}
+
+}

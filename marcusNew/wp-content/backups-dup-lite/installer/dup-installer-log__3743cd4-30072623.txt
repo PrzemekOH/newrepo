@@ -1,0 +1,1541 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 12:32:16
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.33                                |7.4.26
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2022-05-30 07:26:23
+WP VERSION__________: 6.0
+DUP VERSION_________: 1.4.3
+DB__________________: 10.6.7
+DB TABLES___________: 33
+DB ROWS_____________: 22,278
+DB FILE SIZE________: 7,88MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.26 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.51 (Win64) PHP/7.4.26
+DOC ROOT____________: "C:/wamp64/www/marcusNew"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/marcusNew/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/wamp64/www/marcusNew/20220211_marcusacademy_[HASH]_20220530072623_archive.zip"
+SIZE________________: 113.25MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/wamp64/www/marcusNew/20220211_marcusacademy_[HASH]_20220530072623_archive.zip"
+SIZE________________: 113.25MBFile timestamp set to Current: 2022-05-30 12:33:05
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 12:33:05 - RUNTIME: 48.8269 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 12:34:32
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.36 -- Build Server: 10.6.7
+FILE SIZE:	dup-database__[HASH].sql (2.2MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER
+NEW SQL FILE:	[C:/wamp64/www/marcusNew/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	On
+
+NOTICE: This servers version [5.7.36] is less than the build version [10.6.7].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+**ERROR** database error write 'Index column size too large. The maximum column size is 767 bytes.' - [sql=CREATE TABLE `wp_gdrts_itemmeta` (
+  `meta_id` bigint(20) unsigned NOT NULL...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+**ERROR** database error write 'Table 'marcusnew.wp_gdrts_itemmeta' doesn't exist' - [sql=LOCK TABLES `wp_gdrts_itemmeta` WRITE;...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+**ERROR** database error write 'Table 'marcusnew.wp_gdrts_itemmeta' doesn't exist' - [sql=/*!40000 ALTER TABLE `wp_gdrts_itemmeta` DISABLE KEYS */;...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+**ERROR** database error write 'Table 'marcusnew.wp_gdrts_itemmeta' doesn't exist' - [sql=/*!40000 ALTER TABLE `wp_gdrts_itemmeta` ENABLE KEYS */;...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+**ERROR** database error write 'Index column size too large. The maximum column size is 767 bytes.' - [sql=CREATE TABLE `wp_gdrts_logmeta` (
+  `meta_id` bigint(20) unsigned NOT NULL ...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+**ERROR** database error write 'Table 'marcusnew.wp_gdrts_logmeta' doesn't exist' - [sql=LOCK TABLES `wp_gdrts_logmeta` WRITE;...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+**ERROR** database error write 'Table 'marcusnew.wp_gdrts_logmeta' doesn't exist' - [sql=/*!40000 ALTER TABLE `wp_gdrts_logmeta` DISABLE KEYS */;...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+**ERROR** database error write 'Table 'marcusnew.wp_gdrts_logmeta' doesn't exist' - [sql=/*!40000 ALTER TABLE `wp_gdrts_logmeta` ENABLE KEYS */;...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb3_general_ci","replace":"utf8mb4_unicode_520_ci"}]
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	8
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	285
+
+wp_actionscheduler_actions: (15)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (3)
+wp_actionscheduler_logs: (35)
+wp_commentmeta: (0)
+wp_comments: (0)
+wp_duplicator_packages: (0)
+wp_gdrts_cache: (0)
+wp_gdrts_items: (0)
+wp_gdrts_items_basic: (0)
+wp_gdrts_logs: (0)
+wp_links: (0)
+wp_options: (277)
+wp_postmeta: (21053)
+wp_posts: (365)
+wp_term_relationships: (0)
+wp_term_taxonomy: (2)
+wp_termmeta: (0)
+wp_terms: (2)
+wp_tm_taskmeta: (0)
+wp_tm_tasks: (0)
+wp_usermeta: (24)
+wp_users: (1)
+wp_wpforms_tasks_meta: (5)
+wp_wpmailsmtp_debug_events: (6)
+wp_wpmailsmtp_tasks_meta: (2)
+wp_yoast_indexable: (275)
+wp_yoast_indexable_hierarchy: (298)
+wp_yoast_migrations: (21)
+wp_yoast_primary_term: (0)
+wp_yoast_seo_links: (0)
+Removed '46' cache/transient rows
+
+INSERT DATA RUNTIME: 2.1629 sec.
+STEP-2 COMPLETE @ 12:34:34 - RUNTIME: 2.1834 sec.
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[WARNING] DATABASE ERROR: database error write
+
+====================================
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 12:35:00
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "MARCUS ACADEMY"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/onehouse/ftp/marcusprod"
+path_new______________: "C:/wamp64/www/marcusNew"
+siteurl_______________: "http://localhost/marcusNew"
+url_old_______________: "http://marcusacademy.pl"
+url_new_______________: "http://localhost/marcusNew"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/onehouse/ftp/marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  2:"\/home\/onehouse\/ftp\/marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  3:"%2Fhome%2Fonehouse%2Fftp%2Fmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  4:"\home\onehouse\ftp\marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  5:"\\home\\onehouse\\ftp\\marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  6:"%5Chome%5Conehouse%5Cftp%5Cmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  7:"//marcusacademy.pl" ==============================> "//localhost/marcusNew"
+	SEARCH  8:"\/\/marcusacademy.pl" ============================> "\/\/localhost\/marcusNew"
+	SEARCH  9:"%2F%2Fmarcusacademy.pl" ==========================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 10:"//www.marcusacademy.pl" ==========================> "//localhost/marcusNew"
+	SEARCH 11:"\/\/www.marcusacademy.pl" ========================> "\/\/localhost\/marcusNew"
+	SEARCH 12:"%2F%2Fwww.marcusacademy.pl" ======================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 13:"https://localhost/marcusNew" =====================> "http://localhost/marcusNew"
+	SEARCH 14:"https:\/\/localhost\/marcusNew" ==================> "http:\/\/localhost\/marcusNew"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FmarcusNew" =============> "http%3A%2F%2Flocalhost%2FmarcusNew"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/onehouse/ftp/marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  2:"\/home\/onehouse\/ftp\/marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  3:"%2Fhome%2Fonehouse%2Fftp%2Fmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  4:"\home\onehouse\ftp\marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  5:"\\home\\onehouse\\ftp\\marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  6:"%5Chome%5Conehouse%5Cftp%5Cmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  7:"//marcusacademy.pl" ==============================> "//localhost/marcusNew"
+	SEARCH  8:"\/\/marcusacademy.pl" ============================> "\/\/localhost\/marcusNew"
+	SEARCH  9:"%2F%2Fmarcusacademy.pl" ==========================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 10:"//www.marcusacademy.pl" ==========================> "//localhost/marcusNew"
+	SEARCH 11:"\/\/www.marcusacademy.pl" ========================> "\/\/localhost\/marcusNew"
+	SEARCH 12:"%2F%2Fwww.marcusacademy.pl" ======================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 13:"https://localhost/marcusNew" =====================> "http://localhost/marcusNew"
+	SEARCH 14:"https:\/\/localhost\/marcusNew" ==================> "http:\/\/localhost\/marcusNew"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FmarcusNew" =============> "http%3A%2F%2Flocalhost%2FmarcusNew"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:    35][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/onehouse/ftp/marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  2:"\/home\/onehouse\/ftp\/marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  3:"%2Fhome%2Fonehouse%2Fftp%2Fmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  4:"\home\onehouse\ftp\marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  5:"\\home\\onehouse\\ftp\\marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  6:"%5Chome%5Conehouse%5Cftp%5Cmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  7:"//marcusacademy.pl" ==============================> "//localhost/marcusNew"
+	SEARCH  8:"\/\/marcusacademy.pl" ============================> "\/\/localhost\/marcusNew"
+	SEARCH  9:"%2F%2Fmarcusacademy.pl" ==========================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 10:"//www.marcusacademy.pl" ==========================> "//localhost/marcusNew"
+	SEARCH 11:"\/\/www.marcusacademy.pl" ========================> "\/\/localhost\/marcusNew"
+	SEARCH 12:"%2F%2Fwww.marcusacademy.pl" ======================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 13:"https://localhost/marcusNew" =====================> "http://localhost/marcusNew"
+	SEARCH 14:"https:\/\/localhost\/marcusNew" ==================> "http:\/\/localhost\/marcusNew"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FmarcusNew" =============> "http%3A%2F%2Flocalhost%2FmarcusNew"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gdrts_cache"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gdrts_items"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gdrts_items_basic"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gdrts_logs"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   277][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/onehouse/ftp/marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  2:"\/home\/onehouse\/ftp\/marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  3:"%2Fhome%2Fonehouse%2Fftp%2Fmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  4:"\home\onehouse\ftp\marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  5:"\\home\\onehouse\\ftp\\marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  6:"%5Chome%5Conehouse%5Cftp%5Cmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  7:"//marcusacademy.pl" ==============================> "//localhost/marcusNew"
+	SEARCH  8:"\/\/marcusacademy.pl" ============================> "\/\/localhost\/marcusNew"
+	SEARCH  9:"%2F%2Fmarcusacademy.pl" ==========================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 10:"//www.marcusacademy.pl" ==========================> "//localhost/marcusNew"
+	SEARCH 11:"\/\/www.marcusacademy.pl" ========================> "\/\/localhost\/marcusNew"
+	SEARCH 12:"%2F%2Fwww.marcusacademy.pl" ======================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 13:"https://localhost/marcusNew" =====================> "http://localhost/marcusNew"
+	SEARCH 14:"https:\/\/localhost\/marcusNew" ==================> "http:\/\/localhost\/marcusNew"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FmarcusNew" =============> "http%3A%2F%2Flocalhost%2FmarcusNew"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS: 21053][PG:   7][SCAN:text columns]
+	SEARCH  1:"/home/onehouse/ftp/marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  2:"\/home\/onehouse\/ftp\/marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  3:"%2Fhome%2Fonehouse%2Fftp%2Fmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  4:"\home\onehouse\ftp\marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  5:"\\home\\onehouse\\ftp\\marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  6:"%5Chome%5Conehouse%5Cftp%5Cmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  7:"//marcusacademy.pl" ==============================> "//localhost/marcusNew"
+	SEARCH  8:"\/\/marcusacademy.pl" ============================> "\/\/localhost\/marcusNew"
+	SEARCH  9:"%2F%2Fmarcusacademy.pl" ==========================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 10:"//www.marcusacademy.pl" ==========================> "//localhost/marcusNew"
+	SEARCH 11:"\/\/www.marcusacademy.pl" ========================> "\/\/localhost\/marcusNew"
+	SEARCH 12:"%2F%2Fwww.marcusacademy.pl" ======================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 13:"https://localhost/marcusNew" =====================> "http://localhost/marcusNew"
+	SEARCH 14:"https:\/\/localhost\/marcusNew" ==================> "http:\/\/localhost\/marcusNew"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FmarcusNew" =============> "http%3A%2F%2Flocalhost%2FmarcusNew"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   365][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/onehouse/ftp/marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  2:"\/home\/onehouse\/ftp\/marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  3:"%2Fhome%2Fonehouse%2Fftp%2Fmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  4:"\home\onehouse\ftp\marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  5:"\\home\\onehouse\\ftp\\marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  6:"%5Chome%5Conehouse%5Cftp%5Cmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  7:"//marcusacademy.pl" ==============================> "//localhost/marcusNew"
+	SEARCH  8:"\/\/marcusacademy.pl" ============================> "\/\/localhost\/marcusNew"
+	SEARCH  9:"%2F%2Fmarcusacademy.pl" ==========================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 10:"//www.marcusacademy.pl" ==========================> "//localhost/marcusNew"
+	SEARCH 11:"\/\/www.marcusacademy.pl" ========================> "\/\/localhost\/marcusNew"
+	SEARCH 12:"%2F%2Fwww.marcusacademy.pl" ======================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 13:"https://localhost/marcusNew" =====================> "http://localhost/marcusNew"
+	SEARCH 14:"https:\/\/localhost\/marcusNew" ==================> "http:\/\/localhost\/marcusNew"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FmarcusNew" =============> "http%3A%2F%2Flocalhost%2FmarcusNew"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/onehouse/ftp/marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  2:"\/home\/onehouse\/ftp\/marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  3:"%2Fhome%2Fonehouse%2Fftp%2Fmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  4:"\home\onehouse\ftp\marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  5:"\\home\\onehouse\\ftp\\marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  6:"%5Chome%5Conehouse%5Cftp%5Cmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  7:"//marcusacademy.pl" ==============================> "//localhost/marcusNew"
+	SEARCH  8:"\/\/marcusacademy.pl" ============================> "\/\/localhost\/marcusNew"
+	SEARCH  9:"%2F%2Fmarcusacademy.pl" ==========================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 10:"//www.marcusacademy.pl" ==========================> "//localhost/marcusNew"
+	SEARCH 11:"\/\/www.marcusacademy.pl" ========================> "\/\/localhost\/marcusNew"
+	SEARCH 12:"%2F%2Fwww.marcusacademy.pl" ======================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 13:"https://localhost/marcusNew" =====================> "http://localhost/marcusNew"
+	SEARCH 14:"https:\/\/localhost\/marcusNew" ==================> "http:\/\/localhost\/marcusNew"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FmarcusNew" =============> "http%3A%2F%2Flocalhost%2FmarcusNew"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/onehouse/ftp/marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  2:"\/home\/onehouse\/ftp\/marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  3:"%2Fhome%2Fonehouse%2Fftp%2Fmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  4:"\home\onehouse\ftp\marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  5:"\\home\\onehouse\\ftp\\marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  6:"%5Chome%5Conehouse%5Cftp%5Cmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  7:"//marcusacademy.pl" ==============================> "//localhost/marcusNew"
+	SEARCH  8:"\/\/marcusacademy.pl" ============================> "\/\/localhost\/marcusNew"
+	SEARCH  9:"%2F%2Fmarcusacademy.pl" ==========================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 10:"//www.marcusacademy.pl" ==========================> "//localhost/marcusNew"
+	SEARCH 11:"\/\/www.marcusacademy.pl" ========================> "\/\/localhost\/marcusNew"
+	SEARCH 12:"%2F%2Fwww.marcusacademy.pl" ======================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 13:"https://localhost/marcusNew" =====================> "http://localhost/marcusNew"
+	SEARCH 14:"https:\/\/localhost\/marcusNew" ==================> "http:\/\/localhost\/marcusNew"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FmarcusNew" =============> "http%3A%2F%2Flocalhost%2FmarcusNew"
+
+EVALUATE TABLE: "wp_tm_taskmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_tm_tasks"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/onehouse/ftp/marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  2:"\/home\/onehouse\/ftp\/marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  3:"%2Fhome%2Fonehouse%2Fftp%2Fmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  4:"\home\onehouse\ftp\marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  5:"\\home\\onehouse\\ftp\\marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  6:"%5Chome%5Conehouse%5Cftp%5Cmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  7:"//marcusacademy.pl" ==============================> "//localhost/marcusNew"
+	SEARCH  8:"\/\/marcusacademy.pl" ============================> "\/\/localhost\/marcusNew"
+	SEARCH  9:"%2F%2Fmarcusacademy.pl" ==========================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 10:"//www.marcusacademy.pl" ==========================> "//localhost/marcusNew"
+	SEARCH 11:"\/\/www.marcusacademy.pl" ========================> "\/\/localhost\/marcusNew"
+	SEARCH 12:"%2F%2Fwww.marcusacademy.pl" ======================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 13:"https://localhost/marcusNew" =====================> "http://localhost/marcusNew"
+	SEARCH 14:"https:\/\/localhost\/marcusNew" ==================> "http:\/\/localhost\/marcusNew"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FmarcusNew" =============> "http%3A%2F%2Flocalhost%2FmarcusNew"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/onehouse/ftp/marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  2:"\/home\/onehouse\/ftp\/marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  3:"%2Fhome%2Fonehouse%2Fftp%2Fmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  4:"\home\onehouse\ftp\marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  5:"\\home\\onehouse\\ftp\\marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  6:"%5Chome%5Conehouse%5Cftp%5Cmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  7:"//marcusacademy.pl" ==============================> "//localhost/marcusNew"
+	SEARCH  8:"\/\/marcusacademy.pl" ============================> "\/\/localhost\/marcusNew"
+	SEARCH  9:"%2F%2Fmarcusacademy.pl" ==========================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 10:"//www.marcusacademy.pl" ==========================> "//localhost/marcusNew"
+	SEARCH 11:"\/\/www.marcusacademy.pl" ========================> "\/\/localhost\/marcusNew"
+	SEARCH 12:"%2F%2Fwww.marcusacademy.pl" ======================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 13:"https://localhost/marcusNew" =====================> "http://localhost/marcusNew"
+	SEARCH 14:"https:\/\/localhost\/marcusNew" ==================> "http:\/\/localhost\/marcusNew"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FmarcusNew" =============> "http%3A%2F%2Flocalhost%2FmarcusNew"
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/onehouse/ftp/marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  2:"\/home\/onehouse\/ftp\/marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  3:"%2Fhome%2Fonehouse%2Fftp%2Fmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  4:"\home\onehouse\ftp\marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  5:"\\home\\onehouse\\ftp\\marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  6:"%5Chome%5Conehouse%5Cftp%5Cmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  7:"//marcusacademy.pl" ==============================> "//localhost/marcusNew"
+	SEARCH  8:"\/\/marcusacademy.pl" ============================> "\/\/localhost\/marcusNew"
+	SEARCH  9:"%2F%2Fmarcusacademy.pl" ==========================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 10:"//www.marcusacademy.pl" ==========================> "//localhost/marcusNew"
+	SEARCH 11:"\/\/www.marcusacademy.pl" ========================> "\/\/localhost\/marcusNew"
+	SEARCH 12:"%2F%2Fwww.marcusacademy.pl" ======================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 13:"https://localhost/marcusNew" =====================> "http://localhost/marcusNew"
+	SEARCH 14:"https:\/\/localhost\/marcusNew" ==================> "http:\/\/localhost\/marcusNew"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FmarcusNew" =============> "http%3A%2F%2Flocalhost%2FmarcusNew"
+
+EVALUATE TABLE: "wp_wpmailsmtp_debug_events"______________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/onehouse/ftp/marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  2:"\/home\/onehouse\/ftp\/marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  3:"%2Fhome%2Fonehouse%2Fftp%2Fmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  4:"\home\onehouse\ftp\marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  5:"\\home\\onehouse\\ftp\\marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  6:"%5Chome%5Conehouse%5Cftp%5Cmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  7:"//marcusacademy.pl" ==============================> "//localhost/marcusNew"
+	SEARCH  8:"\/\/marcusacademy.pl" ============================> "\/\/localhost\/marcusNew"
+	SEARCH  9:"%2F%2Fmarcusacademy.pl" ==========================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 10:"//www.marcusacademy.pl" ==========================> "//localhost/marcusNew"
+	SEARCH 11:"\/\/www.marcusacademy.pl" ========================> "\/\/localhost\/marcusNew"
+	SEARCH 12:"%2F%2Fwww.marcusacademy.pl" ======================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 13:"https://localhost/marcusNew" =====================> "http://localhost/marcusNew"
+	SEARCH 14:"https:\/\/localhost\/marcusNew" ==================> "http:\/\/localhost\/marcusNew"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FmarcusNew" =============> "http%3A%2F%2Flocalhost%2FmarcusNew"
+
+EVALUATE TABLE: "wp_wpmailsmtp_tasks_meta"________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/onehouse/ftp/marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  2:"\/home\/onehouse\/ftp\/marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  3:"%2Fhome%2Fonehouse%2Fftp%2Fmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  4:"\home\onehouse\ftp\marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  5:"\\home\\onehouse\\ftp\\marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  6:"%5Chome%5Conehouse%5Cftp%5Cmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  7:"//marcusacademy.pl" ==============================> "//localhost/marcusNew"
+	SEARCH  8:"\/\/marcusacademy.pl" ============================> "\/\/localhost\/marcusNew"
+	SEARCH  9:"%2F%2Fmarcusacademy.pl" ==========================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 10:"//www.marcusacademy.pl" ==========================> "//localhost/marcusNew"
+	SEARCH 11:"\/\/www.marcusacademy.pl" ========================> "\/\/localhost\/marcusNew"
+	SEARCH 12:"%2F%2Fwww.marcusacademy.pl" ======================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 13:"https://localhost/marcusNew" =====================> "http://localhost/marcusNew"
+	SEARCH 14:"https:\/\/localhost\/marcusNew" ==================> "http:\/\/localhost\/marcusNew"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FmarcusNew" =============> "http%3A%2F%2Flocalhost%2FmarcusNew"
+
+EVALUATE TABLE: "wp_yoast_indexable"______________________________[ROWS:   275][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/onehouse/ftp/marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  2:"\/home\/onehouse\/ftp\/marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  3:"%2Fhome%2Fonehouse%2Fftp%2Fmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  4:"\home\onehouse\ftp\marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  5:"\\home\\onehouse\\ftp\\marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  6:"%5Chome%5Conehouse%5Cftp%5Cmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  7:"//marcusacademy.pl" ==============================> "//localhost/marcusNew"
+	SEARCH  8:"\/\/marcusacademy.pl" ============================> "\/\/localhost\/marcusNew"
+	SEARCH  9:"%2F%2Fmarcusacademy.pl" ==========================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 10:"//www.marcusacademy.pl" ==========================> "//localhost/marcusNew"
+	SEARCH 11:"\/\/www.marcusacademy.pl" ========================> "\/\/localhost\/marcusNew"
+	SEARCH 12:"%2F%2Fwww.marcusacademy.pl" ======================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 13:"https://localhost/marcusNew" =====================> "http://localhost/marcusNew"
+	SEARCH 14:"https:\/\/localhost\/marcusNew" ==================> "http:\/\/localhost\/marcusNew"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FmarcusNew" =============> "http%3A%2F%2Flocalhost%2FmarcusNew"
+
+EVALUATE TABLE: "wp_yoast_indexable_hierarchy"____________________[ROWS:   298][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/onehouse/ftp/marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  2:"\/home\/onehouse\/ftp\/marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  3:"%2Fhome%2Fonehouse%2Fftp%2Fmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  4:"\home\onehouse\ftp\marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  5:"\\home\\onehouse\\ftp\\marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  6:"%5Chome%5Conehouse%5Cftp%5Cmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  7:"//marcusacademy.pl" ==============================> "//localhost/marcusNew"
+	SEARCH  8:"\/\/marcusacademy.pl" ============================> "\/\/localhost\/marcusNew"
+	SEARCH  9:"%2F%2Fmarcusacademy.pl" ==========================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 10:"//www.marcusacademy.pl" ==========================> "//localhost/marcusNew"
+	SEARCH 11:"\/\/www.marcusacademy.pl" ========================> "\/\/localhost\/marcusNew"
+	SEARCH 12:"%2F%2Fwww.marcusacademy.pl" ======================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 13:"https://localhost/marcusNew" =====================> "http://localhost/marcusNew"
+	SEARCH 14:"https:\/\/localhost\/marcusNew" ==================> "http:\/\/localhost\/marcusNew"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FmarcusNew" =============> "http%3A%2F%2Flocalhost%2FmarcusNew"
+
+EVALUATE TABLE: "wp_yoast_migrations"_____________________________[ROWS:    21][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/onehouse/ftp/marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  2:"\/home\/onehouse\/ftp\/marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  3:"%2Fhome%2Fonehouse%2Fftp%2Fmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  4:"\home\onehouse\ftp\marcusprod" ===================> "C:/wamp64/www/marcusNew"
+	SEARCH  5:"\\home\\onehouse\\ftp\\marcusprod" ===============> "C:\/wamp64\/www\/marcusNew"
+	SEARCH  6:"%5Chome%5Conehouse%5Cftp%5Cmarcusprod" ===========> "C%3A%2Fwamp64%2Fwww%2FmarcusNew"
+	SEARCH  7:"//marcusacademy.pl" ==============================> "//localhost/marcusNew"
+	SEARCH  8:"\/\/marcusacademy.pl" ============================> "\/\/localhost\/marcusNew"
+	SEARCH  9:"%2F%2Fmarcusacademy.pl" ==========================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 10:"//www.marcusacademy.pl" ==========================> "//localhost/marcusNew"
+	SEARCH 11:"\/\/www.marcusacademy.pl" ========================> "\/\/localhost\/marcusNew"
+	SEARCH 12:"%2F%2Fwww.marcusacademy.pl" ======================> "%2F%2Flocalhost%2FmarcusNew"
+	SEARCH 13:"https://localhost/marcusNew" =====================> "http://localhost/marcusNew"
+	SEARCH 14:"https:\/\/localhost\/marcusNew" ==================> "http:\/\/localhost\/marcusNew"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FmarcusNew" =============> "http%3A%2F%2Flocalhost%2FmarcusNew"
+
+EVALUATE TABLE: "wp_yoast_primary_term"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_seo_links"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:31 	|	 Rows:22384 	|	 Cells:108984 
+UPDATED:	Tables:7 	|	 Rows:582 	|	 Cells:636 
+ERRORS:		0 
+RUNTIME:	1.494500 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 12:35:02 - RUNTIME: 1.5640 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[WARNING] STEP 2 - INSTALL NOTICES (8)
+	SECTIONS: database
+	LONG MSG:         Queries that error during the deploy step are logged to the <a href="./dup-installer-log__3743cd4-30072623.txt" target="dup-installer">install-log.txt</a> file and
+and marked with an **ERROR** status.   If you experience a few errors (under 5), in many cases they can be ignored as long as your site is working correctly.
+However if you see a large amount of errors or you experience an issue with your site then the error messages in the log file will need to be investigated.
+<br/><br/>
+
+<b>COMMON FIXES:</b>
+<ul>
+    <li>
+        <b>Unknown collation:</b> See Online FAQ:
+        <a href="https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-110-q" target="_blank">What is Compatibility mode & 'Unknown collation' errors?</a>
+    </li>
+    <li>
+        <b>Query Limits:</b> Update MySQL server with the <a href="https://dev.mysql.com/doc/refman/5.5/en/packet-too-large.html" target="_blank">max_allowed_packet</a>
+        setting for larger payloads.
+    </li>
+</ul>
+
+-----------------------
+[WARNING] Some errors in the database (9)
+	SECTIONS: database
+
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] DATABASE ERROR: database error write
+	SECTIONS: database
+	LONG MSG: **ERROR** database error write 'Index column size too large. The maximum column size is 767 bytes.' - [sql=CREATE TABLE `wp_gdrts_itemmeta` (
+  `meta_id` bigint(20) unsigned NOT NULL...]
+
+-----------------------
+[WARNING] DATABASE ERROR: database error write
+	SECTIONS: database
+	LONG MSG: **ERROR** database error write 'Table 'marcusnew.wp_gdrts_itemmeta' doesn't exist' - [sql=LOCK TABLES `wp_gdrts_itemmeta` WRITE;...]
+
+-----------------------
+[WARNING] DATABASE ERROR: database error write
+	SECTIONS: database
+	LONG MSG: **ERROR** database error write 'Table 'marcusnew.wp_gdrts_itemmeta' doesn't exist' - [sql=/*!40000 ALTER TABLE `wp_gdrts_itemmeta` DISABLE KEYS */;...]
+
+-----------------------
+[WARNING] DATABASE ERROR: database error write
+	SECTIONS: database
+	LONG MSG: **ERROR** database error write 'Table 'marcusnew.wp_gdrts_itemmeta' doesn't exist' - [sql=/*!40000 ALTER TABLE `wp_gdrts_itemmeta` ENABLE KEYS */;...]
+
+-----------------------
+[WARNING] DATABASE ERROR: database error write
+	SECTIONS: database
+	LONG MSG: **ERROR** database error write 'Index column size too large. The maximum column size is 767 bytes.' - [sql=CREATE TABLE `wp_gdrts_logmeta` (
+  `meta_id` bigint(20) unsigned NOT NULL ...]
+
+-----------------------
+[WARNING] DATABASE ERROR: database error write
+	SECTIONS: database
+	LONG MSG: **ERROR** database error write 'Table 'marcusnew.wp_gdrts_logmeta' doesn't exist' - [sql=LOCK TABLES `wp_gdrts_logmeta` WRITE;...]
+
+-----------------------
+[WARNING] DATABASE ERROR: database error write
+	SECTIONS: database
+	LONG MSG: **ERROR** database error write 'Table 'marcusnew.wp_gdrts_logmeta' doesn't exist' - [sql=/*!40000 ALTER TABLE `wp_gdrts_logmeta` DISABLE KEYS */;...]
+
+-----------------------
+[WARNING] DATABASE ERROR: database error write
+	SECTIONS: database
+	LONG MSG: **ERROR** database error write 'Table 'marcusnew.wp_gdrts_logmeta' doesn't exist' - [sql=/*!40000 ALTER TABLE `wp_gdrts_logmeta` ENABLE KEYS */;...]
+
+====================================

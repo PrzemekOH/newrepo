@@ -1,0 +1,118 @@
+@import "variables.scss";
+
+.form {
+	&__row {
+		background-color: $primarybg;
+	}
+
+	&__first {
+		font-weight: $light;
+		font-size: $larger;
+	}
+
+	&__second {
+		font-weight: $light;
+		font-size: $small;
+		color: $white;
+	}
+
+	&__right {
+		background: url(/marcus/wp-content/themes/marcus_onehouse/assets/img/ikona_newsletter.svg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: centerl
+	}
+
+}
+
+input#adresemail {
+	padding: 0px 0px;
+	margin-top: 5px;
+	// width: 358px;
+	height: 46px;
+	width: 100% !important;
+	text-indent: 1rem;
+	color: #707070;
+	font-size: $small;
+	font-weight: $semibold;
+	border-radius: 5px;
+	background-color: $white;
+	border: solid 2px $white;
+}
+
+input#Zapiszmnie {
+	border-radius: 5px;
+	background-color: $secondary;
+	font-size: $small;
+	font-weight: $semibold;
+	color: $black;
+	// width: 108px;
+	height: 46px;
+	width: 180px;
+	margin-left: -7px;
+	// margin-top: 0.3rem;
+	z-index: 2 !important;
+	position: relative;
+	border: solid 2px $secondary;
+	    margin-top: 1.8rem;
+
+}
+
+input#Zapiszmnie:hover {
+	background-color: #B67632;
+}
+
+input#zgoda {
+	width: 15px;
+	height: 15px;
+	vertical-align: top;
+}
+
+span.wpcf7-list-item-label {
+	// font-size: $extrasmall;
+	// font-weight: $light;
+	// color: #212529;
+	// vertical-align: top;
+}
+
+label#chckbx {
+	max-width: 90%;
+	font-size: $extrasmall;
+	font-weight: $light;
+	color: $white;
+	vertical-align: top;
+}
+
+@media (max-width:992px) {
+	.form {
+		&__first {
+			font-size: 28px;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		&__second {
+			font-size: $mobilemedium;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+	}
+
+	label#chckbx {
+		font-size: 12px;
+	}
+
+	input#adresemail {
+		font-size: $mobilemedium;
+	}
+
+	input#Zapiszmnie {
+		font-size: $mobilemedium;
+		margin-left: inherit;
+		width: 100%;
+			    margin-top: inherit;
+
+	}
+
+}

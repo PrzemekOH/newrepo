@@ -1,0 +1,297 @@
+@import "variables.scss";
+
+@font-face {
+  // font-family: 'Open Sans';
+  // font-family: open-sans, sans-serif !important;
+  // font-family: nunito-sans, sans-serif !important;
+  font-family: proxima-nova, sans-serif !important;
+}
+
+html {
+  // font-family: 'Open Sans' !important;
+  // font-family: nunito-sans, sans-serif !important;
+  font-family: proxima-nova, sans-serif !important;
+  overflow-x: hidden !important;
+}
+
+body {
+  overflow-x: hidden !important;
+  // font-family: Open Sans;
+  // font-family: nunito-sans, sans-serif !important;
+  color: $black;
+  overflow-x: hidden !important;
+  // font-family: 'open-sans', sans-serif !important;
+  font-weight: $light;
+  font-family: proxima-nova, sans-serif !important;
+}
+
+h1 {
+  font-size: $extralage !important;
+  font-weight: $light !important;
+}
+
+h2 {
+  font-size: $extralage !important;
+  font-weight: $light !important;
+}
+
+h3 {
+  font-size: $small !important;
+}
+
+p {
+  font-size: $medium !important;
+}
+
+.bold {
+  font-weight: $bold !important;
+}
+
+.btn {
+  font-size: $small !important;
+  background-color: $primary !important;
+  border-radius: 0 solid $secondary !important;
+  opacity: 1 !important;
+  color: $white !important;
+  border-color: $primary !important;
+  font-weight: $semibold;
+}
+
+.btn:hover {
+  background-color: $hover !important;
+  transition: .5s all ease-in-out;
+  color: $primary !important;
+}
+
+.btn:focus {
+  box-shadow: none!important;
+}
+
+.btn__nav {
+  background-color: $white !important;
+  color: $primary !important;
+  // min-width: 192px;
+}
+
+.btn__nav:hover {
+  background-color: $primary !important;
+  color: $white !important;
+  // min-width: 192px;
+}
+
+.btn__szkolenia {
+  background-color: $secondary !important;
+  color: $black !important;
+}
+
+.btn__szkolenia:hover {
+  background-color: $secondaryhover !important;
+  color: $black !important;
+}
+
+ul, ol {
+  -webkit-padding-start: 0em;
+  line-height: 100%;
+  margin-bottom: 0rem !important;
+    padding-left: 0rem!important;
+
+
+}
+
+ol li span {
+  font-weight: normal;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  color: #212529;
+  text-decoration: none !important;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: #212529 !important;
+}
+
+a:focus, a:hover {
+  text-decoration: none !important;
+  color: $secondary !important;
+}
+
+hr {
+}
+
+b, strong {
+}
+
+button:focus {
+}
+
+a .active {
+}
+
+.transparent {
+  opacity: 0;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.vw100 {
+  width: 100vw;
+}
+
+.initialwidth {
+  width: initial;
+}
+
+.absolutecenter {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.indexhidden {
+  z-index: -1;
+}
+
+.indexmax {
+  z-index: 999999999 !important;
+}
+
+span.violet {
+  color: $primary;
+  font-weight: $bold;
+}
+
+span.red {
+  color: red;
+}
+
+span.black {
+  font-weight: $bold;
+  color: $black;
+}
+
+span.violetbg {
+  background-color: $primary;
+}
+
+p.violetbg {
+  background-color: $primary;
+  line-height: 0.3em;
+  padding-bottom: 0.3em;
+  max-width: 23vw;
+}
+
+span.orange {
+  color: $secondaryup;
+}
+
+span.white {
+  color: $white;
+}
+
+span.bold {
+  font-weight: $bold;
+}
+
+span.semibold {
+  font-weight: $semibold;
+}
+
+span.light {
+  font-weight: $light;
+}
+
+.box {
+  max-width: 525px;
+  margin: 0 auto;
+}
+
+.desktopnone {
+  display: none !important;
+}
+
+.mobilenone {
+  display: block;
+}
+
+.mobilehidden {
+  visibility: visible;
+}
+
+.desktophidden {
+  visibility: hidden;
+}
+
+@media (max-width:992px) {
+  .desktopnone {
+    display: inherit !important;
+  }
+
+  .mobilenone {
+    display: none !important;
+  }
+
+  .mobilehidden {
+    visibility: hidden;
+  }
+
+  .desktophidden {
+    visibility: visible;
+  }
+
+  h1 {
+    font-size: 30px !important;
+  }
+
+  h2 {
+    font-size: $mobilelarge !important;
+  }
+
+  h3 {
+    font-size: $mobilemedium !important;
+  }
+
+  p {
+    font-size: 16px !important;
+  }
+
+  .btn {
+    font-size: $mobilemedium !important;
+  }
+
+  p.violetbg {
+    max-width: inherit;
+    line-height: 0.5em;
+    background-color: inherit;
+    font-size: inherit;
+    font-size: 28px !important;
+  }
+
+  .slick-dots {
+    margin-top: 0rem !important;
+  }
+
+  .arrowmobilel {
+    position: absolute;
+    left: 0;
+    top: 20%;
+  }
+
+  .arrowmobiler {
+    position: absolute;
+    right: 0;
+    top: 20%;
+  }
+
+}
